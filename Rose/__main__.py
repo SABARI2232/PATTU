@@ -70,8 +70,8 @@ async def start_bot():
  _____________________________________________   
 |                                             |  
 |          Deployed Successfully              |  
-|         (C) 2021-2022 by @szteambots        | 
-|          Greetings from supun  :)           |
+|         (C) 2021-2022 by @missmirachelrobots        | 
+|          Greetings from pattu :)           |
 |_____________________________________________|""")
     await idle()
 
@@ -86,16 +86,16 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text=" ➕ Add Me To Your Group ➕ ",
+                text=" ➕ Add Me To GROUP ➕ ",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
         [
            InlineKeyboardButton(
-                text=" ℹ️ About", callback_data="_about"
+                text="😎 About", callback_data="_about"
             ),
             InlineKeyboardButton(
-                text="🌍 languages ", callback_data="_langs"
+                text="🖥 languages ", callback_data="_langs"
             ),
         ],
         [
@@ -105,12 +105,12 @@ home_keyboard_pm = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="🌐 Website",
-                url=f"https://szrosebot.ml",
+                text="👿 Fed",
+                url=f"https://t.me/teamripfed",
             ),
             InlineKeyboardButton(
-                text="🔰 News Channel",
-                url=f"https://t.me/szroseupdates",
+                text="❗ News Channel",
+                url=f"https://t.me/pattuoffical",
             )
         ],
     ]
@@ -120,7 +120,7 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="📚 Commands & help",
+                text="🙂 Commands & help",
                 url=f"t.me/{BOT_USERNAME}?start=help",
             )
         ]
@@ -303,7 +303,7 @@ async def help_button(client, query, _):
                 "Here is the help for", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
-            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma"
+            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @Can_si_mi, 
         )
         if hasattr(HELPABLE[module], "__helpbtns__"):
                        button = (HELPABLE[module].__helpbtns__) + [[InlineKeyboardButton("« Back", callback_data="bot_commands")]]
