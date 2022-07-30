@@ -1,6 +1,6 @@
 <p align="center">
       <img style="width:100px; height: 100px;"  src="https://telegra.ph/file/c823fea618f6c024e75a9.png"></p>
-<h1 align="center"><b>Rose bot ✨</b></h1>
+<h1 align="center"><b>rose bot ✨</b></h1>
 <h2 align="center"><b>The Telegram Bot to manage and protect groups</b></h2>
 <h4 align="center">Rose bot  simplifies the management, administration and security of your group</h4>
 
@@ -14,7 +14,7 @@
     <img href="https://crowdin.com/project/szrosebot" src="https://badges.crowdin.net/szrosebot/localized.svg" alt="crowndin"> 
 </p>
 
-## What is Rose for ?
+## What is rose for ?
 
 Have you ever received Telegram in your group **spam, adder, flood,** people who send link, channel message, promoting, arabic ? Rose Bot is the automatic moderator that manages your Telegram group and punishes malicious users automatically for you.
 
