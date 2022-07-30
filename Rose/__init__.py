@@ -29,7 +29,7 @@ OWNER_ID = 5144627735
 
 
 myclient = pymongo.MongoClient(DB_URI)
-dbn = myclient["pattu"]
+dbn = myclient["supun"]
 
 mongo_client = AsyncIOMotorClient(MONGO_URL)
 db = mongo_client.wbb
@@ -39,7 +39,7 @@ loop = asyncio.get_event_loop()
 aiohttpsession = ClientSession()
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 
-bot = Client("pattu", bot_token=BOT_TOKEN, api_id=API_ID, api_hash=API_HASH)
+bot = Client("supun", bot_token=BOT_TOKEN, api_id=API_ID, api_hash=API_HASH)
 bot.start()
 app = Client("app2", bot_token=BOT_TOKEN, api_id=API_ID1, api_hash=API_HASH1)
 app.start()
